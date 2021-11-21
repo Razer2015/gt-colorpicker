@@ -26,10 +26,16 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
-.container {
+.main-container {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.color-preview {
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
 }
